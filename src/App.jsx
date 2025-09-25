@@ -111,7 +111,7 @@ function App() {
       },
       {
         dates: "2021 - 2023",
-        degree: "Senior High School: Academic Track - Accountancy, Business and Management (ABM)",
+        degree: "Senior High School: Academic Track - Accountancy, Business, and Management (ABM)",
         university: "University Of The Assumption - City of San Fernando, Pampanga",
       },
     ],
