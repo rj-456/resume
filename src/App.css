@@ -1,0 +1,189 @@
+/* --- General Setup --- */
+body {
+  margin: 0;
+  font-family: Calibri, 'Segoe UI', Candara, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.resume-wrapper {
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding-top: 10px;
+  box-sizing: content-box;
+}
+
+/* --- Sidebar --- */
+.sidebar {
+  width: 35%;
+  background-color: #094D73;
+  color: #ffffff;
+}
+
+.sidebar-content {
+  padding: 2.5rem 1.5rem;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  /* This change moves the image to the top */
+  margin: -1rem auto .5rem;
+  border-radius: 0;
+}
+.name {
+  font-size: 3rem;
+  font-weight: 550;
+  color: #ffffff;
+  line-height: 1.2;
+  margin: 0;
+  padding-bottom: .5rem;
+}
+
+.sidebar-title {
+  font-size: 1.6rem;
+  font-weight: bolder;
+  background-color: #184563; /* Set the background color */
+  color: #ffffff;
+  margin: 2rem -1.5rem 1.5rem; 
+  padding: 0.5rem 1.5rem;
+}
+
+.contact-item {
+  margin-bottom: 1rem;
+}
+
+.contact-item h3 {
+  font-size: 1rem;
+  margin: 0 0 0.25rem;
+  font-weight: 600;
+}
+
+.contact-item p {
+  margin: 0;
+  font-size: 1rem;
+  color: #dfdfdf;
+  word-wrap: break-word;
+}
+
+.skills-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-info li {
+  margin-bottom: 0.8rem;
+  padding-left: 20px;
+  position: relative;
+  font-size: 1rem;
+  color: #dfdfdf;
+}
+
+.skills-info li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #dfdfdf;
+}
+
+/* --- Main Content --- */
+.main-content {
+  width: 65%;
+  padding: 1.5rem;
+}
+
+.summary-section {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.summary-section p {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.main-section {
+  margin-bottom: 2rem;
+}
+
+.main-title {
+  font-size: 1.6rem;
+  font-weight: bolder;
+  color: #094D73;
+  border-top: 2px solid #e0e0e0;
+  border-bottom: 2px solid #e0e0e0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.education-entry,
+.experience-entry {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.dates {
+  width: 100px;
+  min-width: 100px;
+  font-size: 1rem;
+  color: #555;
+  white-space: pre-line;
+}
+
+.details {
+  flex: 1;
+}
+
+.details h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0 0 0.25rem;
+}
+
+.details p {
+  font-size: 1rem;
+  color: #555;
+  margin: 0;
+}
+
+.details .company,
+.details .university { 
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0 0.5rem;
+  color: #555;
+}
+
+.details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+}
+
+.details li {
+  margin-bottom: 0.5rem;
+  padding-left: 20px;
+  position: relative;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.details li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #000000;
+}
